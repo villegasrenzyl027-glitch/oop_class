@@ -1,18 +1,18 @@
-import 'Alvin.dart';
-import 'Jay-ar.dart';
-import 'Renzyl.dart';
-import 'Ralph.dart';
+import 'Person.dart';
+import 'Animals.dart';
+import 'Gadgets.dart';
+import 'Vehicles.dart';
 
 void main(){
-  var jay_ar = Jay_ar('Jay-ar', 19);
-  jay_ar.describe();
+  var dogs = Dog('Browny','Bark','Male',12);
+  dogs.describe();
 
-  var alvin = Alvin('Alvin', 20);
-  alvin.describe();
+  var farmer = Farmers('Alvin','Male', 20);
+  farmer.describe();
 
-  var ralph = Ralph('Ralph', 20);
-  ralph.describe();
+  var cars = Car('SUV','Blue','July 02,2025',12300);
+  cars.describe();
 
-  var renzyl = Renzyl('Renzyl', 19);
+  var renzyl = Phone('Samsung','Version 34',200000);
   renzyl.describe();
 }
