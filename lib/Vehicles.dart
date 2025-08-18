@@ -1,10 +1,10 @@
-class Car{
+class Cars{
   String model,color,dateCreated;
   int price;
 
-  Car(this.model,this.color,this.dateCreated,this.price);
+  Cars(this.model,this.color,this.dateCreated,this.price);
 
   void describe(){
-    print('My Model is $model Im $color Color My Date Created is $dateCreated My Price is $price');
+    print('My Model is $model My Colors is $color My Date Created $dateCreated Price is $price');
   }
 }
